@@ -1,0 +1,46 @@
+body {
+  background-color: #e9ecef; /* Slightly darker background */
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh; /* Ensure full viewport height */
+  display: flex;
+  flex-direction: column;
+}
+main.container {
+    flex-grow: 1; /* Pushes the footer down */
+}
+.navbar-brand {
+  font-weight: 700; /* Bolder font */
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+.bg-primary {
+    background-color: #007bff !important; /* Standard Bootstrap Primary */
+}
+.card {
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.05); /* Lighter border */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); /* Smoother transition */
+}
+.card:hover {
+  transform: translateY(-3px); /* Less aggressive hover lift */
+  box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+}
+.btn {
+  border-radius: 8px;
+  font-weight: 500;
+}
+table {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden; /* For rounded table corners */
+}
+table thead th {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+.alert {
+  border-radius: 8px;
+  border-left: 5px solid; /* Highlight the type of alert */
+}
